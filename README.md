@@ -22,3 +22,13 @@ conda activate venv
 '''
 pip install -r requirements.txt
 '''
+>Note : To ignore file or folder from git we can write name of file/folder in .gitignore file
+ 
+ To check thre git status
+ '''
+ git log
+ '''
+ To create version/commit all changes by
+ '''
+ git commit -m "relevent message"
+ '''
