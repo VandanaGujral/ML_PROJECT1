@@ -40,7 +40,7 @@ pip install -r requirements.txt
  '''
  git commit -m "relevent message"
  '''
- 
+
  To send version/changes to github
  '''
  git push origin main
@@ -50,3 +50,33 @@ pip install -r requirements.txt
  '''
  git remote -v
  '''
+
+To setup CI/CD pipline in heroku we need 3 information 
+
+1. HEROKU_EMAIL = gujralsona0305@gmail.com
+2. HEROKU_API_KEY=4c934531-9fe5-4c9e-b2be-635e9e81428b
+3. HEROKU_APP_NAME=ml-project05072022
+
+BUILD DOCKER IMAGE
+'''
+docker build -t <image_name>:<tagname> .
+'''
+
+Note: Image name for docker must be lowercase
+
+To list docker image
+
+docker images
+Run docker image
+
+docker run -p 5000:5000 -e PORT=5000 f8c749e73678
+To check running container in docker
+
+docker ps
+Tos stop docker conatiner
+
+docker stop <container_id>
+python setup.py install
+Install ipykernel
+
+pip install ipykernel
