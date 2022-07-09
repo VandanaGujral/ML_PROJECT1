@@ -80,3 +80,7 @@ python setup.py install
 Install ipykernel
 
 pip install ipykernel
+
+'''
+python setup.py install
+'''
